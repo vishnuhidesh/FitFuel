@@ -1,0 +1,12 @@
+Login/Signup
+Analysis of user health status
+Update or make changes in user status (bodyweight etc)
+User profile update
+Scan food
+Check diet recommendation
+Check meal plan
+Set goal
+See progress
+post on social media
+follow others on social media
+interact on others posts

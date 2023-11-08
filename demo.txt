@@ -1,0 +1,11 @@
+Login/Signup
+User Profile
+User Health Status : BMI, Body Fat Analyser, etc
+
+Food Recognition
+Calorie Tracker
+Diet Recommendation
+Meal Planner
+Goal and Progress Tracking
+Social Media
+Educational Resource on Health and Nutrition
