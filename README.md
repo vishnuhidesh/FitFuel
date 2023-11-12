@@ -7,10 +7,7 @@ FitFuel is a web application built using Django that empowers users to take cont
 ## Table of Contents
 
 - [Key Features](#key-features)
-- [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Application](#running-the-application)
 - [Usage](#usage)
   - [User Registration and Login](#user-registration-and-login)
   - [Profile Setup](#profile-setup)
@@ -44,7 +41,6 @@ FitFuel is a web application built using Django that empowers users to take cont
 
 - **Healthcare Provider Integration (Optional):** Share health data with healthcare providers for personalized advice.
 
-## Getting Started
 
 ### Prerequisites
 
