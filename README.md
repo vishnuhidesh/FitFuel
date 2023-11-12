@@ -4,11 +4,12 @@ FitFuel is a web application built using Django that empowers users to take cont
 
 ## This project is currently under development
 This project is being developed by 3 individuals
+__Vishnu Hidesh (Myself)__, __Sharun T N__, & __Amith E K__
 
 ## Table of Contents
 
 - [Key Features](#key-features)
-  - [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
 - [Usage](#usage)
   - [User Registration and Login](#user-registration-and-login)
   - [Profile Setup](#profile-setup)
