@@ -1,2 +1,2 @@
 # FitFuel
-## This repo is to handle our final yar project.
+## This repo is to handle our final year project.
