@@ -3,6 +3,7 @@
 FitFuel is a web application built using Django that empowers users to take control of their nutrition and fitness journey. The application integrates advanced features, including calorie tracking, macronutrients monitoring, AI-driven food recognition, personalized diet recommendations, goal setting, and community interaction.
 
 ## This project is currently under development
+This project is being developed by 3 individuals
 
 ## Table of Contents
 
