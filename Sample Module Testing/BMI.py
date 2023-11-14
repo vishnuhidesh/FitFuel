@@ -1,5 +1,5 @@
-def BMI(height, weight):             # The problem with bmi is that it cannot distinguish between muscle and fat
-    bmi = weight/((height/100)**2)   # So it is not recommended to rely only on bmi for overall bodyfat summarization
+def BMI(height, weight):             # The problem with bmi is that it cannot distinguish between muscle and fat.
+    bmi = weight/((height/100)**2)   # So it is not recommended to rely only on bmi for overall bodyfat summarization.
     return bmi
 
 def BMIRange(bmi):
