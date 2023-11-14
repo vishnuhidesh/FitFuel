@@ -1,5 +1,5 @@
-def BMI(height, weight):
-    bmi = weight/((height/100)**2)
+def BMI(height, weight):             # The problem with bmi is that it cannot distinguish between muscle and fat
+    bmi = weight/((height/100)**2)   # So it is not recommended to rely only on bmi for overall bodyfat summarization
     return bmi
 
 def BMIRange(bmi):
@@ -21,37 +21,70 @@ def WTHR(height, waist):
     return wthr
 
 
-def WTHRRange(wthr, gender="M"):
+# def WTHRRange(wthr, gender="M"):
+#     if gender == "M":
+#         if wthr >= 0.63:
+#             return "Highly Obese"
+#         elif 0.58 <= wthr < 0.63:
+#             return "Extremely Overweight"
+#         elif 0.53 <= wthr < 0.58:
+#             return "Overweight"
+#         elif 0.46 <= wthr < 0.53:
+#             return "Healthy"
+#         elif 0.43 <= wthr < 0.46:
+#             return "Slender & Healthy"
+#         elif 0.35 <= wthr < 0.43:
+#             return "Extremely Slim"
+#         else:
+#             return "Abnormally Slim"
+#     elif gender == "F":
+#         if wthr >= 0.58:
+#             return "Highly Obese"
+#         elif 0.54 <= wthr < 0.58:
+#             return "Extremely Overweight"
+#         elif 0.49 <= wthr < 0.54:
+#             return "Overweight"
+#         elif 0.46 <= wthr < 0.49:
+#             return "Healthy"
+#         elif 0.42 <= wthr < 0.46:
+#             return "Slender & Healthy"
+#         elif 0.35 <= wthr < 0.42:
+#             return "Extremely Slim"
+#         else:
+#             return "Abnormally Slim"
+
+def WTHRRangeScore(wthr, gender="M"):
     if gender == "M":
         if wthr >= 0.63:
-            return "Highly Obese"
+            return -3
         elif 0.58 <= wthr < 0.63:
-            return "Extremely Overweight"
+            return -2
         elif 0.53 <= wthr < 0.58:
-            return "Overweight"
+            return -1
         elif 0.46 <= wthr < 0.53:
-            return "Healthy"
+            return 0
         elif 0.43 <= wthr < 0.46:
-            return "Slender & Healthy"
+            return 1
         elif 0.35 <= wthr < 0.43:
-            return "Extremely Slim"
+            return 2
         else:
-            return "Abnormally Slim"
+            return 3
     elif gender == "F":
         if wthr >= 0.58:
-            return "Highly Obese"
+            return -3
         elif 0.54 <= wthr < 0.58:
-            return "Extremely Overweight"
+            return -2
         elif 0.49 <= wthr < 0.54:
-            return "Overweight"
+            return -1
         elif 0.46 <= wthr < 0.49:
-            return "Healthy"
+            return 0
         elif 0.42 <= wthr < 0.46:
-            return "Slender & Healthy"
+            return 1
         elif 0.35 <= wthr < 0.42:
-            return "Extremely Slim"
+            return 2
         else:
-            return "Abnormally Slim"
+            return 3
+
 
 
     
@@ -72,5 +105,5 @@ bmi = BMI(172.0,81.0)
 print(round(bmi,1))
 print(BMIRange(bmi))
 print(WTHR(170.0,80.0))
-print(WTHRRange(0.47,"M"))
+# print(WTHRRange(0.47,"M"))
 # print(healthScore(21,12,80.0,120.0,1))
